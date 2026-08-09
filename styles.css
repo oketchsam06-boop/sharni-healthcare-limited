@@ -543,4 +543,12 @@ img {
   .form-row textarea {
     padding: 0.95rem;
   }
+
+#social-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  
+  
 }
+   }

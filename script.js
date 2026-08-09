@@ -11,7 +11,7 @@ if (navToggle && siteNav) {
 
 if (contactForm) {
   contactForm.addEventListener('submit', (event) => {
-    event.preventDefault();
+
     const name = contactForm.name.value.trim();
     const email = contactForm.email.value.trim();
     const phone = contactForm.phone.value.trim();
@@ -19,13 +19,17 @@ if (contactForm) {
     const message = contactForm.message.value.trim();
 
     if (!name || !email || !phone || !subject || !message) {
-      formMessage.textContent = 'Please fill in all required fields before sending your message.';
+      event.preventDefault();
+
+      formMessage.textContent =
+        'Please fill in all required fields before sending your message.';
+
       formMessage.style.color = '#d23f57';
+
       return;
     }
 
-    formMessage.textContent = 'Thank you! Your message has been sent. We will respond as soon as possible.';
-    formMessage.style.color = '#0F4C81';
-    contactForm.reset();
+    // Don't prevent the submission here.
+    // The form will be sent to FormSubmit.
   });
 }
