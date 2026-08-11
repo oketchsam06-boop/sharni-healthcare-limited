@@ -1,157 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sharni Healthcare Limited | Pharmaceutical & Healthcare Solutions</title>
-  <meta name="description" content="Professional pharmaceutical supplies, medication, medical equipment, clinic setup, and healthcare solutions in Kenya." />
-  <link rel="stylesheet" href="styles.css" />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-   >
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharni Healthcare Limited | Quality Healthcare Products & Reliable Supplies</title>
+  <meta name="description" content="Sharni Healthcare Limited provides pharmaceuticals, medical consumables, laboratory supplies, surgical supplies, PPE, and infection prevention products in Kenya.">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
-      <a href="index.html" class="brand">Sharni Healthcare Limited</a>
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <nav class="site-nav">
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="contact.html" class="btn btn-primary nav-quote">Get a Quote</a>
+      <a class="brand" href="index.html" aria-label="Sharni Healthcare Limited home"><span class="brand-mark">S</span><span>Sharni <b>Healthcare</b><small>Limited</small></span></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Menu</span></button>
+      <nav class="site-nav" id="site-nav">
+        <a class="active" href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html">Products</a><a href="contact.html">Contact Us</a><a class="btn btn-primary nav-quote" href="contact.html">Get a Quote <span>→</span></a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="hero-content container">
-        <div class="hero-copy">
-          <p class="eyebrow">Healthcare & Pharmaceutical Excellence</p>
-          <h1>Reliable Healthcare Solutions You Can Trust</h1>
-          <p>Providing quality pharmaceutical supplies, medical products, equipment, and complete clinic setup solutions to healthcare facilities and organizations.</p>
-          <div class="hero-actions">
-            <a href="contact.html" class="btn btn-primary">Get a Quote</a>
-            <a href="services.html" class="btn btn-secondary">Explore Our Services</a>
-          </div>
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Healthcare product supply partner</p>
+          <h1>Quality healthcare products.<br><em>Reliable supplies.</em><br>Better care.</h1>
+          <p class="lead">Sharni Healthcare Limited provides dependable pharmaceutical, medical, laboratory, surgical, and infection prevention supplies to support better healthcare delivery.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="products.html">Explore Our Products <span>→</span></a><a class="btn btn-light" href="contact.html">Get a Quote</a></div>
+          <div class="hero-note"><span class="check">✓</span> Supporting healthcare facilities and professionals across Kenya</div>
         </div>
-        <div class="hero-media">
-          <img src="images/proffessionals.png" alt="Healthcare professionals collaborating in a medical environment" />
+        <div class="hero-visual reveal">
+          <img src="images/medical products.png" alt="Medical products including vials, syringes, tablets and protective equipment">
+          <div class="hero-badge"><span class="badge-icon">✦</span><span><b>Product-focused</b><small>Professional healthcare supply</small></span></div>
         </div>
       </div>
     </section>
 
-    <section class="section intro-section" id="who-we-are">
+    <section class="section categories-section">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Who We Are</p>
-          <h2>Professional healthcare solutions for modern facilities</h2>
-        </div>
-        <div class="section-copy">
-          <p>Sharni Healthcare Limited is a reliable healthcare solutions provider specializing in pharmaceutical products, medical supplies, equipment, and clinic setup services. We support hospitals, clinics, pharmacies, NGOs, and healthcare organizations across Kenya with tailored services and fast delivery.</p>
-          <a href="about.html" class="btn btn-tertiary">Learn More About Us</a>
+        <div class="section-heading reveal"><div><p class="eyebrow">What we supply</p><h2>Our product categories</h2></div><p>Reliable healthcare products for better care and safer healthcare environments.</p></div>
+        <div class="category-grid">
+          <article class="category-card reveal"><img src="https://images.unsplash.com/photo-1550572017-4fcdbb59cc32?auto=format&fit=crop&w=900&q=85" alt="Pharmaceutical products and essential medicines"><div class="category-card-content"><span class="card-icon">✚</span><h3>Pharmaceuticals</h3><p>Prescription and essential medicines supplied for healthcare providers.</p><a href="products.html#pharmaceuticals">View Products <b>→</b></a></div></article>
+          <article class="category-card reveal"><img src="images/Medical gloves,syranges.png" alt="Medical gloves, syringes and consumables"><div class="category-card-content"><span class="card-icon">◌</span><h3>Medical Consumables</h3><p>Essential disposable supplies for everyday clinical use.</p><a href="products.html#consumables">View Products <b>→</b></a></div></article>
+          <article class="category-card reveal"><img src="https://images.unsplash.com/photo-1579165466991-467135ad3110?auto=format&fit=crop&w=900&q=85" alt="Laboratory equipment and supplies"><div class="category-card-content"><span class="card-icon">⌬</span><h3>Laboratory Supplies</h3><p>Equipment and consumables supporting efficient lab operations.</p><a href="products.html#laboratory">View Products <b>→</b></a></div></article>
+          <article class="category-card reveal"><img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=900&q=85" alt="Surgical supplies and instruments"><div class="category-card-content"><span class="card-icon">✣</span><h3>Surgical Supplies</h3><p>Essential supplies for professional procedure environments.</p><a href="products.html#surgical">View Products <b>→</b></a></div></article>
+          <article class="category-card featured reveal"><img src="images/PPE.png" alt="PPE and infection prevention supplies"><div class="category-card-content"><span class="card-icon">◈</span><h3>PPE &amp; Infection Prevention</h3><p>Protective equipment for safer healthcare environments.</p><a href="products.html#ppe">View Products <b>→</b></a></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section services-preview">
+    <section class="section products-preview">
       <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Our Services</p>
-          <h2>Solutions designed for healthcare providers</h2>
-        </div>
-        <div class="card-grid">
-          <article class="service-card">
-            <div class="icon">💊</div>
-            <h3>Pharmaceutical Supplies</h3>
-            <p>Delivering trusted pharmaceutical products and medical supplies to hospitals, clinics, and pharmacies.</p>
-            <a href="services.html#pharmaceutical" class="link-button">Learn More</a>
-          </article>
-          <article class="service-card">
-            <div class="icon">🩺</div>
-            <h3>Medication Supply</h3>
-            <p>Reliable medication procurement and delivery services that comply with healthcare regulations.</p>
-            <a href="services.html#medication" class="link-button">Learn More</a>
-          </article>
-          <article class="service-card">
-            <div class="icon">⚙️</div>
-            <h3>Medical Equipment</h3>
-            <p>Supplying high-quality diagnostic, treatment, and patient care equipment for modern facilities.</p>
-            <a href="services.html#equipment" class="link-button">Learn More</a>
-          </article>
-          <article class="service-card">
-            <div class="icon">🏥</div>
-            <h3>Clinic Setup</h3>
-            <p>Complete clinic setup solutions from design and planning to installation and operational readiness.</p>
-            <a href="services.html#clinic-setup" class="link-button">Learn More</a>
-          </article>
-          <article class="service-card">
-            <div class="icon">🧴</div>
-            <h3>Medical Consumables</h3>
-            <p>Supplying essential disposables such as gloves, masks, syringes, bandages, and gauze.</p>
-            <a href="services.html#consumables" class="link-button">Learn More</a>
-          </article>
-          <article class="service-card">
-            <div class="icon">📋</div>
-            <h3>Healthcare Consultancy</h3>
-            <p>Expert guidance for facility planning, procurement, equipment selection, and workflow optimization.</p>
-            <a href="services.html#consultancy" class="link-button">Learn More</a>
-          </article>
+        <div class="center-heading reveal"><p class="eyebrow">Dependable by design</p><h2>Quality healthcare products</h2><p>Products you can depend on for everyday healthcare delivery.</p></div>
+        <div class="product-grid">
+          <article class="product-card reveal"><img src="https://images.unsplash.com/photo-1585435557343-3b092031a831?auto=format&fit=crop&w=700&q=85" alt="Generic pharmaceutical products"><div><p class="product-type">Pharmaceuticals</p><h3>Essential Medicines</h3><p>Generic pharmaceutical product categories for professional healthcare settings.</p><a href="contact.html" class="text-link">Enquire Now <b>→</b></a></div></article>
+          <article class="product-card reveal"><img src="images/Medical gloves,syranges.png" alt="Medical gloves masks and syringes"><div><p class="product-type">Consumables</p><h3>Clinical Disposables</h3><p>Gloves, syringes, gauze, dressings, masks and other daily essentials.</p><a href="contact.html" class="text-link">Enquire Now <b>→</b></a></div></article>
+          <article class="product-card reveal"><img src="https://images.unsplash.com/photo-1579165466991-467135ad3110?auto=format&fit=crop&w=900&q=85" alt="Laboratory sample containers and equipment"><div><p class="product-type">Laboratory</p><h3>Lab Consumables</h3><p>Practical laboratory supplies for accurate and efficient workflows.</p><a href="contact.html" class="text-link">Enquire Now <b>→</b></a></div></article>
+          <article class="product-card reveal"><img src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=700&q=85" alt="Protective equipment and face masks"><div><p class="product-type">Infection prevention</p><h3>Protective Equipment</h3><p>PPE categories to help support safer healthcare environments.</p><a href="contact.html" class="text-link">Enquire Now <b>→</b></a></div></article>
         </div>
       </div>
     </section>
 
-    <section class="section why-choose">
-      <div class="container">
-        <div class="section-head">
-          <p class="eyebrow">Why Choose Us</p>
-          <h2>The right partner for your healthcare needs</h2>
-        </div>
-        <div class="benefits-grid">
-          <div class="benefit-card"><h3>Quality Healthcare Products</h3><p>Only trusted products from reliable manufacturers and suppliers.</p></div>
-          <div class="benefit-card"><h3>Reliable Supply</h3><p>Consistent stock and timely deliveries for uninterrupted operations.</p></div>
-          <div class="benefit-card"><h3>Professional Service</h3><p>Experienced support for procurement, logistics, and clinic setup.</p></div>
-          <div class="benefit-card"><h3>Competitive Pricing</h3><p>Cost-effective solutions without compromising quality or reliability.</p></div>
-          <div class="benefit-card"><h3>Customer Satisfaction</h3><p>Focused communication and follow-up to meet your healthcare goals.</p></div>
-        </div>
-      </div>
+    <section class="section about-strip">
+      <div class="container about-strip-grid reveal"><div><p class="eyebrow">About Sharni Healthcare Limited</p><h2>Your trusted product supply partner</h2><p>Sharni Healthcare Limited is a healthcare products and pharmaceutical supply company committed to supporting healthcare providers with reliable medical products and supplies. Our portfolio covers pharmaceuticals, medical consumables, laboratory supplies, surgical supplies, and PPE.</p><a class="btn btn-outline" href="about.html">Learn More About Us <span>→</span></a></div><div class="about-stat"><span>5</span><p>essential product<br>categories</p></div></div>
     </section>
 
-    <section class="section cta-section">
-      <div class="container cta-panel">
-        <div>
-          <p class="eyebrow">Partner with us</p>
-          <h2>Let's Build Better Healthcare Facilities Together</h2>
-          <p>Whether you need pharmaceutical supplies, medical equipment, or a complete clinic setup, our team is ready to assist.</p>
-        </div>
-        <a href="contact.html" class="btn btn-primary">Contact Us Today</a>
-      </div>
-    </section>
+    <section class="section why-section"><div class="container"><div class="center-heading reveal"><p class="eyebrow">Why work with us</p><h2>Why choose Sharni Healthcare?</h2></div><div class="why-grid"><article class="why-card reveal"><span>01</span><h3>Quality Healthcare Products</h3><p>Dependable products suitable for professional healthcare environments.</p></article><article class="why-card reveal"><span>02</span><h3>Reliable Supplies</h3><p>Consistent and dependable supply solutions for customer needs.</p></article><article class="why-card reveal"><span>03</span><h3>Professional Service</h3><p>Responsive, professional support from inquiry to supply.</p></article><article class="why-card reveal"><span>04</span><h3>Better Care</h3><p>Products that help healthcare providers deliver better care.</p></article></div></div></section>
+
+    <section class="section quote-cta"><div class="container cta-panel reveal"><div><p class="eyebrow">Let's work together</p><h2>Looking for reliable healthcare supplies?</h2><p>Talk to Sharni Healthcare Limited about your healthcare product requirements and request a quotation today.</p></div><div class="cta-actions"><a class="btn btn-teal" href="contact.html">Get a Quote <span>→</span></a><a class="btn btn-ghost" href="contact.html">Contact Us</a></div></div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <p class="footer-brand">Sharni Healthcare Limited</p>
-        <p>Delivering dependable pharmaceutical and healthcare solutions across Kenya.</p>
-      </div>
-      <p class="footer-copy">© 2026 Sharni Healthcare Limited. All rights reserved.</p>
-      <div class="social-links">
-        <a href="https://www.facebook.com/sharnihealthcare" target="_blank" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.twitter.com/sharnihealthcare" target="_blank" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://www.linkedin.com/company/sharnihealthcare" target="_blank" aria-label="Follow us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <a href="https://wa.me/+25419205666" class="whatsapp-float" aria-label="Contact us on WhatsApp">WhatsApp</a>
+  <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="index.html"><span class="brand-mark">S</span><span>Sharni <b>Healthcare</b><small>Limited</small></span></a><p>Quality healthcare products. Reliable supplies. Better care.</p></div><div><h3>Explore</h3><a href="about.html">About Us</a><a href="products.html">Products</a><a href="contact.html">Contact Us</a></div><div><h3>Contact</h3><p>Kenya</p><a href="mailto:info@sharnihealthcare.co.ke">lawi.nickogola@gmail.com</a><p>+254 716433156</p></div></div><div class="container footer-bottom">© 2026 Sharni Healthcare Limited. All rights reserved.</div></footer>
+  <a class="whatsapp-float" href="https://wa.me/0719205666" aria-label="Contact Sharni Healthcare on WhatsApp"><span>◔</span><small>WhatsApp</small></a>
   <script src="script.js"></script>
 </body>
 </html>
